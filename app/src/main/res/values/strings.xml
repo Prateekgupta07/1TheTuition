@@ -23,17 +23,25 @@
     <string name="email">thetuition111@gmail.com</string>
     <string name="whatsapphead">Whatsapp No.</string>
     <string name="WhatsappNo">7409999556</string>
-    <string name="text_gallery">Test Papers</string>
-    <string name="text_Slideshow">Practice Papers</string>
+    <string name="text_gallery">MCQ\'s</string>
     <string name="text_mcq">MCQ\'s</string>
+
+    <string name="text_Slideshow">Practice Papers</string>
+
     <string name="class8">Class 8</string>
     <string name="class7">Class 7</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="textview4">Welcome to ‘THE TUITION’ an online platform for the students. Here, we are providing you Practice Papers, MCQ’s and Test Papers with their solutions without spending even a single penny so that you can practice and learn more. This is helpful for you to analyse yourself time to time. Moreover, we will also provide the videos of chapters based on NCERT syllabus and some other books like R.S. Agarwal, Composite Mathematics, R.D. Sharma etc. The explanations of these Practice Papers, MCQ’s and Test Papers will be provided in the videos on my Youtube channel.
-Stay connected directly with me through WhatsApp group : - https://chat.whatsapp.com/Kek0OKpfFCf0xNPG0s4Zgb
-Youtube link : - https://www.youtube.com/channel/UCZM53r4CJWWcG7N425V7GxA
+Stay connected directly with me through WhatsApp group.
 Keep sharing this application so that more students get the benefit of this application for their studies.
 Thanks for downloading ‘THE TUITION’.
 </string>
     <string name="text">text1</string>
+    <string name="sharebtn">share</string>
+    <string name="title_activity_p_d_fopenert8">PDFopenert8</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>

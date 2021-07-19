@@ -19,12 +19,22 @@ public class practicepap7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practicepap2);
         pdfListView = findViewById(R.id.myPDFList);
-        pdfName.add("Algebraic Expressions");
-        pdfName.add("Decimals");
-        pdfName.add("Exponents & Powers");
-        pdfName.add("Fractions");
         pdfName.add("Integers");
+        pdfName.add("Fractions");
+        pdfName.add("Decimals");
         pdfName.add("Rational Numbers");
+        pdfName.add("Exponents & Powers");
+        pdfName.add("Algebraic Expressions");
+        pdfName.add("Linear Expressions");
+        pdfName.add("Ratio & Proportion");
+        pdfName.add("Percentage & SP CP");
+        pdfName.add("Percentage & its Applications");
+        pdfName.add("Lines & Angles");
+        pdfName.add("Triangles & its Properties");
+        pdfName.add("Congruence of triangles");
+        pdfName.add("Perimeter & Area");
+        pdfName.add("Data Handling");
+        pdfName.add("Bar Graphs");
         listViewAdapter = new ListViewAdapter(getApplicationContext(), pdfName);
         pdfListView.setAdapter(listViewAdapter);
         pdfListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

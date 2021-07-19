@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
@@ -14,37 +14,19 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.thetuition.ui.gallery.GalleryFragment"
-        android:label="@string/Testpapers"
-        tools:layout="@layout/fragment_gallery" >
-        <action
-            android:id="@+id/action_nav_gallery_to_tst07"
-            app:destination="@id/tst07" />
-        <action
-            android:id="@+id/action_nav_gallery_to_tst08"
-            app:destination="@id/tst08" />
-    </fragment>
+        android:label="@string/mcq"
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.thetuition.ui.slideshow.SlideshowFragment"
         android:label="@string/PracticePapers"
-        tools:layout="@layout/fragment_slideshow" >
-        <action
-            android:id="@+id/action_nav_slideshow_to_practce8"
-            app:destination="@id/practce8" />
-    </fragment>
+        tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_mcq"
         android:name="com.example.thetuition.nav_mcq"
         android:label="@string/mcq"
-        tools:layout="@layout/nav_mcq_fragment" >
-        <action
-            android:id="@+id/action_nav_mcq_to_mcq07"
-            app:destination="@id/mcq07" />
-        <action
-            android:id="@+id/action_nav_mcq_to_mcq08"
-            app:destination="@id/mcq08" />
-    </fragment>
+        tools:layout="@layout/nav_mcq_fragment" />
     <fragment
         android:id="@+id/nav_contact"
         android:name="com.example.thetuition.nav_contact"
@@ -56,29 +38,19 @@
         android:label="Share"
         tools:layout="@layout/nav_share_fragment" />
     <fragment
-        android:id="@+id/practce8"
-        android:name="com.example.thetuition.practce8"
-        android:label="practce8_fragment"
-        tools:layout="@layout/practce8_fragment" />
+        android:id="@+id/aboutus"
+        android:name="com.example.thetuition.aboutus"
+        android:label="About Us"
+        tools:layout="@layout/fragment_aboutus" />
     <fragment
-        android:id="@+id/tst07"
-        android:name="com.example.thetuition.tst07"
-        android:label="tst07_fragment"
-        tools:layout="@layout/tst07_fragment" />
-    <fragment
-        android:id="@+id/tst08"
-        android:name="com.example.thetuition.tst08"
-        android:label="tst08_fragment"
-        tools:layout="@layout/tst08_fragment" />
-    <fragment
-        android:id="@+id/mcq07"
-        android:name="com.example.thetuition.mcq07"
-        android:label="mcq07_fragment"
-        tools:layout="@layout/mcq07_fragment" />
-    <fragment
-        android:id="@+id/mcq08"
-        android:name="com.example.thetuition.mcq08"
-        android:label="mcq08_fragment"
-        tools:layout="@layout/mcq08_fragment" />
+        android:id="@+id/joinus"
+        android:name="com.example.thetuition.joinus"
+        android:label="joinus"
+        tools:layout="@layout/joinus_fragment" />
+    <activity
+        android:id="@+id/update"
+        android:name="com.example.thetuition.update"
+        android:label="Update"
+        tools:layout="@layout/activity_update" />
 
 </navigation>
